@@ -1,0 +1,70 @@
+body {
+    background-color:#7FFF00;
+}
+
+#start {
+  color: black;
+  font-style: italic;
+  font-weight: bold;
+}
+
+.jumbotron
+{
+  background-color:white;
+  text-align: center;
+  border-width: thick;
+  border-style: double;
+  border-color: #FFDAB9;
+
+}
+
+h1 {
+    font-family: "monospace";
+    background-color: #FFDAB9;
+    font-size: 60px;
+    text-align: center;
+    color: white;
+    padding: 2px 0px;
+
+}
+
+#score {
+    color: #FFDAB9;
+    text-align: center;
+    font-size: 30px;
+}
+
+#question {
+    text-align: center;
+    font-family: "monospace";
+    font-size: 30px;
+    color: black;
+}
+
+.buttons {
+    margin-top: 30px;
+}
+
+#btn0, #btn1, #btn2, #btn3 {
+    background-color: #FFDAB9;
+    width: 250px;
+    font-size: 20px;
+    color: black;
+    border: 1px solid #1D3C6A;
+    margin: 10px 40px 10px 0px;
+    padding: 10px 10px;
+}
+
+#btn0:hover, #btn1:hover, #btn2:hover, #btn3:hover {
+    cursor: pointer;
+    background-color: purple;
+}
+
+#btn0:focus, #btn1:focus, #btn2:focus, #btn3:focus {
+    outline: 0;
+}
+
+#progress {
+    color: #7FFF00;
+    font-size: 18px;
+}
